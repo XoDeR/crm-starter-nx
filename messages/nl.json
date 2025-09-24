@@ -1,0 +1,11 @@
+{
+  "RootLayout": {
+    "title": "CRM"
+  },
+  "HomePage": {
+    "title": "Home"
+  },
+  "UsersPage": {
+    "title": "Users"
+  }
+}
