@@ -1,0 +1,2 @@
+# crm-starter-nx
+CRM
