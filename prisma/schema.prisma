@@ -35,7 +35,7 @@ model User {
   name                  String?
   password              String?
   username              String?
-  account_name          String?					      @map("account_name")
+  accounName            String?					      @map("account_name")
   avatar                String?
   email                 String                @unique
   isAccountAdmin        Boolean               @default(false) @map("is_account_admin")
