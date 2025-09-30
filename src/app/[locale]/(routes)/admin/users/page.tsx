@@ -1,10 +1,11 @@
 import { prismadb } from '@/lib/prisma';
 
 import Container from "../../components/ui/Container";
+import { getUsers } from '@/actions/get-users';
+import type { User } from '@prisma/client';
 
 const AdminUsersPage = async () => {
-  const users = await prismadb.user.findMany();
-
+  const users: User[] = await getUsers();
 
   return (
     <Container
